@@ -19,7 +19,6 @@
           "options": {
             "outputPath": "dist/app-account",
             "index": "src/index.html",
-            "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -63,12 +62,10 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app-account:build:production",
-              "browserTarget": "app-account:build:production"
+              "buildTarget": "app-account:build:production"
             },
             "development": {
-              "buildTarget": "app-account:build:development",
-              "browserTarget": "app-account:build:development"
+              "buildTarget": "app-account:build:production"
             }
           },
           "defaultConfiguration": "development"
