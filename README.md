@@ -1,27 +1,37 @@
-# AppAccount
+## Sobre
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Esta API em C# foi desenvolvida para fornecer funcionalidades de autenticação, gestão de usuários e gerenciamento de roles. Ela utiliza JWT (JSON Web Tokens) para autenticação segura. No futuro, será integrada ao mesmo projeto em que outras APIs estão sendo desenvolvidas.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Autenticação JWT**: Fornece endpoints para autenticação de usuários e geração de tokens JWT.
+- **Gestão de Usuários**: Permite operações CRUD (Criar, Ler, Atualizar, Excluir) em relação aos usuários.
+- **Gerenciamento de Roles**: Permite definir roles (funções) para os usuários e associá-las aos recursos protegidos.
 
-## Code scaffolding
+## Integração Futura
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esta API será integrada ao mesmo projeto onde outras APIs estão sendo desenvolvidas. Ela se tornará parte de um sistema unificado que oferece diversas funcionalidades para os usuários.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **C#**: A API foi desenvolvida em C#.
+- **ASP.NET Core**: Utilizado como framework para construção da API.
+- **JWT**: Para autenticação segura dos usuários.
+- **Entity Framework Core**: Para acesso e manipulação de dados no banco de dados.
+- **Swagger**: Documentação interativa da API.
 
-## Running unit tests
+## Como Usar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone este repositório.
+2. Abra o projeto em sua IDE preferida.
+3. Configure a conexão com o banco de dados no arquivo `appsettings.json`.
+4. Execute o projeto e acesse a documentação Swagger para explorar os endpoints disponíveis.
 
-## Running end-to-end tests
+## Contribuições
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou reportar problemas através das issues.
 
-## Further help
+## Licença
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
